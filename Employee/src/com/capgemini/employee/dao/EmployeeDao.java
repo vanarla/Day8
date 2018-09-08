@@ -14,6 +14,6 @@ public interface EmployeeDao {
 
 	public boolean addEmployee(Employee employee);
 
-	public Employee updateEmployee(Employee employee);
+	public boolean updateEmployee(Employee employee);
 
 }
